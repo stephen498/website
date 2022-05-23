@@ -119,7 +119,7 @@
                             justify-content: center;
                             column-gap: 5px;
                             /*grid-template-columns: repeat(4, 1fr);*/
-                            /*padding: 0 400px 0px 400px;*/
+                            padding: 0 400px 0px 400px;
                         }
                         
                         .block .sub {
@@ -171,15 +171,16 @@
                         
                         .bad {
                             background: rgb(168, 148, 154);
+                            display: grid;
                         }
                         
                         .block1 {
-                            display: flex;
+                            display: grid;
                             align-items: center;
                             justify-content: center;
-                            column-gap: 5px;
-                            /* grid-template-columns: repeat(4, 1fr);
-                padding: 0 400px 100px 400px;*/
+                            column-gap: 4px;
+                            grid-template-columns: repeat(4, 1fr);
+                            padding: 0 400px 0px 400px;
                         }
                         
                         .substance {
